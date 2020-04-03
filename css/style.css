@@ -74,30 +74,34 @@ body {
 }
 
 // social links
-.social > div {
+.social {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
-.social .social-link {
-    width: 30px;
+.social-link-youtube,
+.social-link-fb,
+.social-link-insta {
     color: #ffffff;
-    transition: .3s ease;
-    margin-left: 25px;
-}
-.social .social-link.fb:hover {
-    color: #037BDB;
-}
-.social .social-link.insta:hover {
-    color: #C63AB3;
-}
-.social .social-link.youtube:hover {
-    color: #FF0000;
-}
-.social .social-link svg {
     width: 35px;
     height: 35px;
+    margin: 0 5px;
 }
+.svg-inline--fa {
+    transition: .3s ease;
+    width: 100% !important;
+    height: 100% !important;
+}
+.fa-facebook:hover {
+    color: #037BDB;
+}
+.fa-instagram:hover {
+    color: #C63AB3;
+}
+.fa-youtube:hover {
+    color: #FF0000;
+}
+
 
 
 
