@@ -110,6 +110,18 @@ body {
     color: #666;
 }
 
+/* map */
+.map-box {
+   margin-bottom: 15px;
+}
+.map-box iframe {
+    width: 100%;
+}
+@media (max-width: 768px){
+    .map-box {
+        margin-top: 30px;
+    }
+}
 
 .availability {
     width: fit-content;
@@ -489,7 +501,8 @@ body {
 
 .content-right p {
     font-size: 1.3em;
-    font-weight: 500;
+    font-weight: 300;
+    letter-spacing: .5px;
 }
 
 .content-right p:first-child {
