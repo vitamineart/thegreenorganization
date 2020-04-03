@@ -103,7 +103,11 @@ body {
 }
 
 
-
+/* privacy-container */
+.privacy-container {
+    background-color: #fff;
+    padding: 15px;
+}
 
 
 .availability {
