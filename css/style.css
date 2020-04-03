@@ -104,9 +104,10 @@ body {
 
 
 /* privacy-container */
-.privacy-container {
+.privacy-container, .terms-container {
     background-color: #fff;
     padding: 15px;
+    color: #666;
 }
 
 
