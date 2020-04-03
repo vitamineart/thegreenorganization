@@ -659,45 +659,59 @@ body {
     margin-top: 0;
     margin-bottom: 1.1em;
 }
-
-.content-bottom {
+/* rent section  */
+.rent-section {
     width: 100%;
     padding: 1em;
     background-color: #fff;
     margin-top: 1em;
+    display: grid;
+    grid-gap: 20px;
 }
+@media (min-width: 769px){
 
-.content-bottom-row {
-    display: flex;
-    padding: 0.1em;
+    .rent-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 992px){
+    .rent-section {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+.rent-section-item {
+    /* padding: 10px; */
     color: #000;
     text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    display: grid;
+}
+.rent-section-item .row-price {
+    font-weight: 900;
+    color: #2360A8;
+    font-size: 23px;
+    letter-spacing: .5px;
+    padding: 5px 0 0;
+}
+.rent-section-item .row-square {
+    font-size: 16px;
+    font-weight: 900;
+    color: #333333;
+}
+.rent-section-item .row-call {
+    color: #666;
+    font-size: 14px;
+    font-weight: 900;
+}
+.rent-section-item .row-bedroom {
+    font-size: 14px;
+    color: #999999;
 }
 
-.row-bedroom {
-    width: 15%;
-    text-align: left;
-}
 
-.row-bathroom {
-    width: 20%;
-    text-align: left;
-}
 
-.row-price {
-    width: 15%;
-    text-align: left;
-}
 
-.row-square {
-    width: 25%;
-    text-align: left;
-}
-
-.row-call {
-    width: 25%;
-    text-align: left;
-}
 
 .content-middle-wrapper {
     color: #000;
@@ -989,10 +1003,6 @@ body {
         width: 95%;
     }
 
-    .row-call {
-        width: 30%;
-    }
-
     .content-property .content-video {
         width: 100%;
         margin: auto;
@@ -1015,16 +1025,13 @@ body {
         width: 95%;
     }
 
-    .row-call {
-        width: 30%;
-    }
-
     .content-error {
         width: 95%;
     }
 }
 
 @media only screen and (max-width: 768px) {
+
     .title-home {
         font-size: 3.5em;
     }
@@ -1083,25 +1090,6 @@ body {
     .content-bottom {
         display: flex;
         flex-wrap: wrap;
-    }
-
-    .content-bottom-row {
-        display: flex;
-        float: left;
-        flex-wrap: wrap;
-        padding: 1.2em;
-        width: 50%;
-        border: ridge;
-    }
-
-    .content-bottom-row div {
-        width: auto;
-        padding-right: 1em;
-        text-align: left;
-    }
-
-    .row-call {
-        width: 100% !important;
     }
 
     .content-detail {
