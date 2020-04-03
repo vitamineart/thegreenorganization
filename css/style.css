@@ -680,12 +680,28 @@ body {
     }
 }
 .rent-section-item {
-    /* padding: 10px; */
+    padding: 15px;
     color: #000;
     text-align: left;
     font-size: 18px;
     font-weight: 400;
-    display: grid;
+    position: relative;
+    z-index: 1;
+}
+.rent-section-item.accent {
+    /* border: 1px solid hsl(169, 97%, 37%); */
+    /* box-shadow: 0 2px 10px hsla(0,0%,0%,.3); */
+}
+.rent-section-item.accent:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -15px;
+    height: 5px;
+    left: 0;
+    right: 0;
+    background-color: hsl(169, 97%, 37%);
+
 }
 .rent-section-item .row-price {
     font-weight: 900;
@@ -694,10 +710,15 @@ body {
     letter-spacing: .5px;
     padding: 5px 0 0;
 }
-.rent-section-item .row-square {
-    font-size: 16px;
+.rent-section-item.accent .row-price {
     font-weight: 900;
-    color: #333333;
+    color: rgb(3, 187, 154);
+    font-size: 30px;
+}
+.rent-section-item .row-square {
+    font-size: 15px;
+    font-weight: 900;
+    color: #666;
 }
 .rent-section-item .row-call {
     color: #666;
