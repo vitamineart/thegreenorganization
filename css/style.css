@@ -73,36 +73,32 @@ body {
     text-decoration: none;
 }
 
-.social {
-    text-align: center;
-    vertical-align: middle;
+// social links
+.social > div {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
-.social svg {
-    width: 1.8em;
+.social .social-link {
+    width: 30px;
     color: #ffffff;
+    transition: .3s ease;
+    margin-left: 25px;
+}
+.social .social-link.fb:hover {
+    color: #037BDB;
+}
+.social .social-link.insta:hover {
+    color: #C63AB3;
+}
+.social .social-link.youtube:hover {
+    color: #FF0000;
+}
+.social .social-link svg {
+    width: 35px;
+    height: 35px;
 }
 
-.social-link-insta {
-    margin-right: 1.2em;
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0) !important;
-}
-
-.social-link-insta svg {
-    fill: red;
-}
-
-
-
-.social-link-fb svg:hover {
-    color: #FFFF00;
-}
-
-.social-link-insta svg:hover {
-    color: #FFFF00;
-}
 
 
 
