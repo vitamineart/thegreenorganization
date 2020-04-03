@@ -76,6 +76,12 @@ body {
 .social {
     text-align: center;
     vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+.social svg {
+    width: 1.8em;
+    color: #ffffff;
 }
 
 .social-link-insta {
@@ -85,16 +91,10 @@ body {
 }
 
 .social-link-insta svg {
-    position: relative;
-    top: 1px;
-    width: 1.8em;
-    color: #fff;
+    fill: red;
 }
 
-.social-link-fb svg {
-    width: 1em;
-    color: #fff;
-}
+
 
 .social-link-fb svg:hover {
     color: #FFFF00;
@@ -103,6 +103,8 @@ body {
 .social-link-insta svg:hover {
     color: #FFFF00;
 }
+
+
 
 .availability {
     width: fit-content;
