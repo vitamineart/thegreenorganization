@@ -730,9 +730,16 @@ body {
 }
 .row-call .phone-link svg {
     display: inline-block;
-    width: 30px;height: 30px;
+    /* width: 30px;height: 30px; */
 }
-
+.row-call {
+    font-size: 20px;
+}
+@media (min-width: 768px){
+    .row-call {
+        font-size: 25px;
+    }
+}
 
 
 .content-middle-wrapper {
