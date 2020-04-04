@@ -674,13 +674,14 @@ body {
     margin-top: 0;
     margin-bottom: 1.1em;
 }
+
+
 /* rent section  */
 .rent-section {
     width: 100%;
     padding: 1em;
     margin-top: 1em;
     display: grid;
-    /* grid-gap: 20px; */
     background-color: #fff;
 }
 @media (min-width: 769px){
@@ -702,21 +703,6 @@ body {
     position: relative;
     z-index: 1;
 }
-.rent-section-item.accent {
-    /* border: 1px solid hsl(169, 97%, 37%); */
-    /* box-shadow: 0 2px 10px hsla(0,0%,0%,.3); */
-}
-.rent-section-item.accent:after {
-    /* content: ''; */
-    position: absolute;
-    z-index: -1;
-    top: -15px;
-    height: 5px;
-    left: 15px;
-    right: 15px;
-    background-color: hsl(169, 97%, 37%);
-
-}
 .rent-section-item .row-price {
     font-weight: 900;
     color: #2360A8;
@@ -724,19 +710,21 @@ body {
     letter-spacing: .5px;
     padding: 5px 0 0;
 }
-.rent-section-item.accent .row-price {
+.rent-section-item .row-price {
     font-weight: 900;
-    color: rgb(3, 187, 154);
     font-size: 30px;
 }
 .rent-section-item .row-square {
     font-size: 15px;
-    font-weight: 900;
     color: #999999;
 }
 .rent-section-item .row-bedroom {
     font-size: 14px;
     color: #333;
+}
+.rent-section-item .row-bedroom {
+    font-weight: 900;
+    color: #000000;
 }
 .row-call {
     color: rgb(255, 255, 255);
@@ -748,7 +736,6 @@ body {
 }
 .row-call .phone-link svg {
     display: inline-block;
-    /* width: 30px;height: 30px; */
     margin-right: 12px;
 }
 @media (min-width: 578px){
@@ -756,7 +743,7 @@ body {
         font-size: 25px;
     }
 }
-
+/* rent section end */
 
 .content-middle-wrapper {
     color: #000;
