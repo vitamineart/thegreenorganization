@@ -722,7 +722,7 @@ body {
 }
 .row-call {
     color: rgb(255, 255, 255);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
     text-align: center;
     width: 100%;
@@ -731,9 +731,7 @@ body {
 .row-call .phone-link svg {
     display: inline-block;
     /* width: 30px;height: 30px; */
-}
-.row-call {
-    font-size: 20px;
+    margin-right: 12px;
 }
 @media (min-width: 768px){
     .row-call {
