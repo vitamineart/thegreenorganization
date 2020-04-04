@@ -733,7 +733,7 @@ body {
     /* width: 30px;height: 30px; */
     margin-right: 12px;
 }
-@media (min-width: 768px){
+@media (min-width: 578px){
     .row-call {
         font-size: 25px;
     }
