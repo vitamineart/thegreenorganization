@@ -83,14 +83,11 @@ body {
 .social-link-fb,
 .social-link-insta {
     color: #ffffff;
-    width: 35px;
-    height: 35px;
     margin: 0 5px;
+    font-size: 25px;
 }
 .svg-inline--fa {
     transition: .3s ease;
-    width: 100% !important;
-    height: 100% !important;
 }
 .fa-facebook:hover {
     color: #037BDB;
@@ -663,13 +660,12 @@ body {
 .rent-section {
     width: 100%;
     padding: 1em;
-    background-color: #fff;
     margin-top: 1em;
     display: grid;
-    grid-gap: 20px;
+    /* grid-gap: 20px; */
+    background-color: #fff;
 }
 @media (min-width: 769px){
-
     .rent-section {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -698,8 +694,8 @@ body {
     z-index: -1;
     top: -15px;
     height: 5px;
-    left: 0;
-    right: 0;
+    left: 15px;
+    right: 15px;
     background-color: hsl(169, 97%, 37%);
 
 }
@@ -720,17 +716,22 @@ body {
     font-weight: 900;
     color: #666;
 }
-.rent-section-item .row-call {
-    color: #666;
-    font-size: 14px;
-    font-weight: 900;
-}
 .rent-section-item .row-bedroom {
     font-size: 14px;
     color: #999999;
 }
-
-
+.row-call {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    padding: 25px 0 0;
+}
+.row-call .phone-link svg {
+    display: inline-block;
+    width: 30px;height: 30px;
+}
 
 
 
