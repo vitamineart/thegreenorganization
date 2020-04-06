@@ -632,6 +632,8 @@ body {
     display: block;
     padding: 10px;
     text-align: center;
+    font-weight: 400;
+    letter-spacing: .5px;
 }
 @media (min-width: 768px) {
     .content-property header small {
