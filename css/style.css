@@ -153,12 +153,13 @@ body {
 .phone {
     text-align: center;
     margin-top: 15%;
+    font-size: 17px;
 }
 
 .phone-link {
     color: #fff;
 }
-
+.phone-link [class*=fa]{margin-right: 5px;}
 .phone-link:hover {
     color: #FFFF00;
     text-decoration: none;
@@ -395,7 +396,7 @@ body {
 .content-property {
     align-items: center;
 }
-.content-properties>p {
+.content-properties > header  {
     width: 100%;
     text-align: center;
     font-size: 2em;
@@ -606,31 +607,31 @@ body {
     width: 68%;
 }
 
-.content-property header {
+.content-title {
     margin: auto;
     margin-bottom: 0.5em;
     text-align: center;
 }
-.content-property header h2 {
+.content-title > h2 {
     margin: 0;
     font-size: 30px;
 }
 @media (min-width: 578px){
-    .content-property header h2 {
+    .content-title > h2 {
         font-size: 35px;
     }
 }
 @media (min-width: 768px){
-    .content-property header h2 {
+    .content-title > h2 {
         font-size: 42px;
     }
 }
 @media (min-width: 1068px){
-    .content-property header h2 {
+    .content-title > h2 {
         font-size: 52px;
     }
 }
-.content-property header small {
+.content-title > small {
     font-size: 12px;
     line-height: 1.2;
     display: block;
@@ -640,7 +641,7 @@ body {
     letter-spacing: .5px;
 }
 @media (min-width: 768px) {
-    .content-property header small {
+    .content-title > small {
         font-size: 15px;
     }
 }
