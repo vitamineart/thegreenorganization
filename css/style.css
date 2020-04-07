@@ -398,10 +398,18 @@ body {
     margin-top: 5vh;
     margin-bottom: 5vh;
     background: rgba(20, 30, 42, 0.8);
-    padding: 2em;
+    padding: 1em;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+@media (min-width: 768px){
+    .content-contact,
+    .content-first,
+    .content-property,
+    .content-properties {
+        padding: 2em;
+    }
 }
 .content-property {
     align-items: center;
