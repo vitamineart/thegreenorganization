@@ -1,0 +1,37 @@
+.btn-menu {
+    float: right;
+}
+#site-navigation-mobi {
+    width: auto;
+    right: 0;
+    min-width: 250px;
+}
+.logo {
+    display: block;
+    width: 100px;
+}
+.logo img {
+    filter: invert(1);
+}
+.header-background:after {
+    content: '';
+    position: absolute;
+    top: 0;left: 0;right: 0;bottom: 0;
+    background-color: #153043;
+    opacity: .5;
+}
+.header-content {
+    padding: 15px;
+    top: 50%;
+}
+
+@media (max-width: 1024px){
+    .blog-post {
+        border:0;
+        box-shadow: none;
+        border-bottom: 1px solid #e6f0fa;
+    }
+}
+.page-wrap {
+    padding-top: 50px;
+}
