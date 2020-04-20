@@ -519,7 +519,7 @@ body {
 	transition: .3s ease;
 	line-height: 1.4;
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 300;
 	color: #fff;
 	text-decoration: none;
 	padding: 15px;
@@ -528,9 +528,10 @@ body {
 }
 .item:hover .caption {
 	background-color: #15212D;
+	color: skyblue;
 }
 .item .caption b {
-	font-size: 120%;
+	font-size: 130%;
 	display: block;
 }
 .first-time-here .item .caption {
