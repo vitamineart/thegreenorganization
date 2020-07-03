@@ -30,7 +30,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="https://tgo-lp.s3.amazonaws.com/style.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-69326822-1"></script>
@@ -47,7 +47,7 @@
         !function (f, b, e, v, n, t, s) {
             if (f.fbq) return; n = f.fbq = function () {
                 n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
             };
             if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
             n.queue = []; t = b.createElement(e); t.async = !0;
@@ -95,8 +95,8 @@
             </div>
             <div class="sidebar-bottom">
                 <div class="social">
-                    <a href="https://www.youtube.com/user/GreenOrganization" class="social-link-youtube"
-                        rel="noreferrer" target="_blank"><i class="fab fa-lg fa-youtube"></i></a>
+                    <a href="https://www.youtube.com/user/GreenOrganization" class="social-link-youtube" rel="noreferrer"
+                        target="_blank"><i class="fab fa-lg fa-youtube"></i></a>
                     <a href="https://www.instagram.com/greenorganization/" class="social-link-insta" rel="noreferrer"
                         target="_blank"> <i class="fab fa-lg fa-instagram"></i> </a>
                     <a href="https://www.facebook.com/greenorganizationfan" class="social-link-fb" target="_blank"
@@ -111,8 +111,7 @@
                         class="city-link link" target="_blank">4410 North French Rd. Ste 104 East Amherst NY 14051</a>
                 </div>
                 <div class="phone">
-                    <a href="tel:716-473-2390" class="phone-link link"><i class="fa fa-lg fa-mobile-alt"></i>
-                        716-402-2004</a>
+                    <a href="tel:716-473-2390" class="phone-link link"><i class="fa fa-lg fa-mobile-alt"></i> 716-402-2004</a>
                 </div>
                 <div class="compliance">
                     <img src="https://tgo-lp.s3.amazonaws.com/ehl-icon.png">
@@ -133,10 +132,10 @@
             <div class="content-first">
                 <header class="content-title">
                     <p>WATCH THIS VIDEO FIRST</p>
-                    <h2 style="font-size: 24px; margin-top: 10px;">Discover how The Green Organization will help you <strong>
+                    <small style="font-size: 20px;">Discover how The Green Organization will help you <strong>
                             FIND A LUXURY APARTMENT
-                        </strong> <br> that's affordable and fits
-                        your needs...</h2>
+                    </strong> <br> that's affordable and fits
+                        your needs...</small>
                 </header>
                 <div class="content-top">
                     <div class="content-video">
@@ -209,95 +208,68 @@
             </div>
             <div class="first-image-wrapper">
                 <div class="container-fluid">
-                    <section class="FTH properties-for-rent">
-                        <!-- Properties for Rent  -->
-                        <header class="section-header">Properties for Rent</header>
-                        <div class="items-grid first-time-here">
-                            <div class="item">
-                                <a href="/properties/4410-4420-north-french-rd">
-                                    <div class="image">
-                                        <img src="https://tgo-lp.s3.amazonaws.com/properties/4410nf.png"
-                                            alt="4410-4420 North French">
-                                    </div>
-                                    <p class="caption"><b>Forest Green Apartments</b> 4410-4420 North French Road East
-                                        Amherst&nbsp;NY</p>
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="/properties/430-englewood-ave">
-                                    <div class="image">
-                                        <img src="https://tgo-lp.s3.amazonaws.com/properties/430eng.png"
-                                            alt="430 Englewood Ave">
-                                    </div>
-                                    <p class="caption"><b>The Apartments at Englewood</b> 430 Englewood Avenue
-                                        Tonawanda&nbsp;NY</p>
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="/properties/436-third-ave">
-                                    <div class="image">
-                                        <img src="https://tgo-lp.s3.amazonaws.com/properties/436third.png"
-                                            alt="436-448 Third Ave">
-                                    </div>
-                                    <p class="caption"><b>Third Ave Townhouses</b> 436-448 Third Avenue
-                                        Williamsville&nbsp;NY</p>
-                                </a>
-                            </div>
+                    <div class="items-grid first-time-here">
+                        <div class="item">
+                            <a href="/properties/4410-4420-north-french-rd">
+                                <div class="image">
+                                    <img src="https://tgo-lp.s3.amazonaws.com/properties/4410nf.png" alt="4410-4420 North French">
+                                </div>
+                                <p class="caption"><b>Forest Green Apartments</b> 4410-4420 North French Road East Amherst&nbsp;NY</p>
+                            </a>
                         </div>
-                    </section>
+                        <div class="item">
+                            <a href="/properties/430-englewood-ave">
+                                <div class="image">
+                                    <img src="https://tgo-lp.s3.amazonaws.com/properties/430eng.png" alt="430 Englewood Ave">
+                                </div>
+                                <p class="caption"><b>The Apartments at Englewood</b> 430 Englewood Avenue Tonawanda&nbsp;NY</p>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="/properties/436-third-ave">
+                                <div class="image">
+                                    <img src="https://tgo-lp.s3.amazonaws.com/properties/436third.png" alt="436-448 Third Ave">
+                                </div>
+                                <p class="caption"><b>Third Ave Townhouses</b> 436-448 Third Avenue Williamsville&nbsp;NY</p>
+                            </a>
+                        </div>
+                    </div>
 
-                    <section class="FTH recent-posts">
+                    <div class="recent-posts">
                         <!-- Recent Blog Posts  -->
-                        <header class="section-header">Recent Articles</header>
+                        <!--<h3>Recent Blog Posts</h3>-->
                         <div class="items-grid first-time-here">
 
-                            <div class="item recent-post">
-                                <a href="https://blog.thegreenorganization.com/apartment-living/what-if-my-apartment-lease-ends-during-covid-19"
-                                    title="What if My Apartment Lease Ends During Covid-19?">
-                                    <div class="image post-thumbnail"><img width="1920" height="1203"
-                                            src="https://blog.thegreenorganization.com/wp-content/uploads/2020/04/Walton-Summit-Exterior.jpg"
-                                            class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""
-                                            srcset="https://blog.thegreenorganization.com/wp-content/uploads/2020/04/Walton-Summit-Exterior.jpg 1920w, https://blog.thegreenorganization.com/wp-content/uploads/2020/04/Walton-Summit-Exterior-300x188.jpg 300w, https://blog.thegreenorganization.com/wp-content/uploads/2020/04/Walton-Summit-Exterior-1024x642.jpg 1024w, https://blog.thegreenorganization.com/wp-content/uploads/2020/04/Walton-Summit-Exterior-768x481.jpg 768w, https://blog.thegreenorganization.com/wp-content/uploads/2020/04/Walton-Summit-Exterior-1536x962.jpg 1536w, https://blog.thegreenorganization.com/wp-content/uploads/2020/04/Walton-Summit-Exterior-830x520.jpg 830w, https://blog.thegreenorganization.com/wp-content/uploads/2020/04/Walton-Summit-Exterior-230x144.jpg 230w"
-                                            sizes="(max-width: 1920px) 100vw, 1920px" /></div>
-                                    <div class="caption">
-                                        <span class="post-time"><i class="far fa-calendar-alt"></i> Wednesday 15th
-                                            April, 2020</span>
-                                        <h3 class="post-title">What if My Apartment Lease Ends During Covid-19?</h3>
+                            <?php
+                                require($_SERVER['APP_ROOT'] . '/blog.thegreenorganization.com/wp-load.php');
+                                $args = array(
+                                // 'cat' => 3, // Only source posts from a specific category
+                                'posts_per_page' => 3 // Specify how many posts you'd like to display
+                                );
+                                $latest_posts = new WP_Query( $args );
+                                if ( $latest_posts->have_posts() ) {
+                                while ( $latest_posts->have_posts() ) {
+                                $latest_posts->the_post(); ?>
+                                    <div class="item recent-post">
+                                        <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+                                            <?php if ( has_post_thumbnail() ) { ?>
+                                            <div class="image post-thumbnail"><?php the_post_thumbnail(); ?></div>
+                                            <?php } ?>
+                                            <div class="caption">
+                                                <h3 class="post-title"><?php the_title(); ?></h3>
+                                                <span class="post-time"><i class="far fa-calendar-alt"></i> <?php the_time('l jS F, Y') ?></span>
+                                            </div>
+                                        </a>
                                     </div>
-                                </a>
-                            </div>
-                            <div class="item recent-post">
-                                <a href="https://blog.thegreenorganization.com/apartment-living/how-to-deal-with-difficult-neighbors"
-                                    title="How to Deal with Difficult Neighbors">
-                                    <div class="image post-thumbnail"><img width="980" height="653"
-                                            src="https://blog.thegreenorganization.com/wp-content/uploads/2020/04/annoyed-man.jpg"
-                                            class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""
-                                            srcset="https://blog.thegreenorganization.com/wp-content/uploads/2020/04/annoyed-man.jpg 980w, https://blog.thegreenorganization.com/wp-content/uploads/2020/04/annoyed-man-300x200.jpg 300w, https://blog.thegreenorganization.com/wp-content/uploads/2020/04/annoyed-man-768x512.jpg 768w, https://blog.thegreenorganization.com/wp-content/uploads/2020/04/annoyed-man-830x553.jpg 830w, https://blog.thegreenorganization.com/wp-content/uploads/2020/04/annoyed-man-230x153.jpg 230w"
-                                            sizes="(max-width: 980px) 100vw, 980px" /></div>
-                                    <div class="caption">
-                                        <span class="post-time"><i class="far fa-calendar-alt"></i> Wednesday 15th
-                                            April, 2020</span>
-                                        <h3 class="post-title">How to Deal with Difficult Neighbors</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="item recent-post">
-                                <a href="https://blog.thegreenorganization.com/apartment-living/how-to-save-on-utility-bills"
-                                    title="How to Save on Utility Bills">
-                                    <div class="image post-thumbnail"><img width="1024" height="683"
-                                            src="https://blog.thegreenorganization.com/wp-content/uploads/2020/04/140407935.jpg"
-                                            class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""
-                                            srcset="https://blog.thegreenorganization.com/wp-content/uploads/2020/04/140407935.jpg 1024w, https://blog.thegreenorganization.com/wp-content/uploads/2020/04/140407935-300x200.jpg 300w, https://blog.thegreenorganization.com/wp-content/uploads/2020/04/140407935-768x512.jpg 768w, https://blog.thegreenorganization.com/wp-content/uploads/2020/04/140407935-830x554.jpg 830w, https://blog.thegreenorganization.com/wp-content/uploads/2020/04/140407935-230x153.jpg 230w"
-                                            sizes="(max-width: 1024px) 100vw, 1024px" /></div>
-                                    <div class="caption">
-                                        <span class="post-time"><i class="far fa-calendar-alt"></i>15th April, 2020</span>
-                                        <h3 class="post-title">How to Save on Utility Bills</h3>
-                                    </div>
-                                </a>
-                            </div>
+                                    <? }
+                                } else {
+                                echo '<p>There are no posts available</p>';
+                                }
+                                wp_reset_postdata();
+                                ?>
                         </div>
                         <!-- Recent Blog Posts End -->
-                    </section>
+                    </div>
                 </div>
 
 
@@ -327,5 +299,4 @@
     })
 </script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
-
 </html>
